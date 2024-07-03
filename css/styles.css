@@ -490,7 +490,7 @@ footer{
 /* media queries for mobile screens */
 @media (max-width:480px) {
     body{
-        border: 1px solid black;
+/*         border: 1px solid black; */
         overflow-x: hidden;
         
     }
@@ -528,10 +528,10 @@ footer{
     
     .home .b{
      
-        /* height: 480px;
-        width: 400px; */
-        width: 100vw;
         height: 480px;
+        width: 480px;
+/*         width: 100vw;
+        height: 480px; */
         object-fit: cover;
         
         right: 0;
